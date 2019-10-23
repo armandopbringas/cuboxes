@@ -1,5 +1,7 @@
 # Cuboxes - Prueba para desarrollador Front-end
 
+![homepage](https://user-images.githubusercontent.com/7260466/67435610-1366d180-f5b2-11e9-803d-26957866e555.png)
+
 
 Maqueta - Styleguide - Assets: https://zpl.io/aNP8Dzd
 
@@ -27,7 +29,3 @@ Maquetar siguiendo los lineamientos de diseño ofrecidos en Zeplin.
 ## Plus
 
 - Puntos y tacos extra si desarrollas la page con React App. 🥳
-
-
-## Información adicional
-> There are only two hard problems in Computer Science: cache invalidation and naming things — Phil Karlton
