@@ -20,7 +20,6 @@ Maquetar siguiendo los lineamientos de diseño ofrecidos en Zeplin.
 
 ## Entrega
 
-- Hacer un fork de este repositorio.
 - Mandar el proyecto concluido en github.
 - El proyecto debe contener tanto los archivos compilados como los src: En caso de SASS el .scss y de los JS en caso de usar babel. 
 
