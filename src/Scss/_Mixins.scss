@@ -1,0 +1,51 @@
+@mixin button1 {
+    color: $white;
+    border: none;
+    border-radius: $radius;
+    padding: 0.75rem 1.5rem;
+    background-color: $main-color;
+}
+
+@mixin  button2 {
+    width: 35%;
+    color: $main-color;
+    padding: 0.75rem 1.5rem;
+    border-radius: $radius;
+    background-color: $white;
+    border: solid 2px $main-color;
+}
+
+@mixin button3 {
+    width: 540px;
+    height: 55px;
+    border: none;
+    color: $white;
+    border-radius: $radius;
+    background-color: $main-color;
+}
+
+@mixin tablet {
+    @media (max-width: #{$tablet}) {
+        @content;
+    }
+}
+
+@mixin textFooter {
+    width: 180px;
+    height: 19px;
+    margin: 0.5rem 0;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: $white;
+}
+
+@mixin texHovers {
+    cursor: pointer;
+    color: $main-color;
+    transition: 0.15s;
+}

@@ -1,0 +1,5 @@
+@import '../../Scss/Styles.scss';
+
+.header__nav--button {
+    @include button1;
+}

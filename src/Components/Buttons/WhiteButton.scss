@@ -1,0 +1,5 @@
+@import '../../Scss/Styles.scss';
+
+.button__white {
+    @include button2;
+}

@@ -1,0 +1,12 @@
+@import '../../Scss/Styles.scss';
+
+.button__one--container {
+    margin: 1rem 0;
+    text-align: center;
+
+    .button__one {
+        margin: 1rem 10.5rem;
+        @include button3;
+    }
+
+}

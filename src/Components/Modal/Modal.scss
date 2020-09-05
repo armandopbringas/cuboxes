@@ -1,0 +1,34 @@
+@import '../../Scss/Styles.scss';
+
+.modal__container {
+    width: 35%;
+    display: flex;
+    padding: 1rem 2.5rem;
+    z-index: 1000;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 20px -5px rgba(55, 51, 49, 0.3);
+    
+    .modal__button--container {
+        border: none;
+        left: 52.5%;
+        top: -0.5%;
+        position: relative;
+        background-color: inherit;
+    }
+
+    .modal__title {
+        margin-bottom: 1.5rem;
+        font-size: 42px;
+        font-weight: bold;
+    }
+
+    .modal__text {
+        width: 440px; 
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
+}

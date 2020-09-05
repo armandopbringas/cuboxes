@@ -1,0 +1,67 @@
+@import '../../Scss/Styles.scss';
+
+.section__container {
+    display: flex;
+    align-items: center;
+    margin: 0 10.5rem;
+    padding: 5rem 0 7.5rem 0;
+
+    .section__img--container {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .section__img {
+            max-width: 100%;
+        }
+
+    }
+
+    .section__text--container {
+        width: 50%;
+        display: flex;
+        text-align: end;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+
+        .section__text--title {
+            width: 70%;
+            margin-top: 3rem;
+            margin-bottom: 0.5em;
+            font-family: Raleway;
+            font-size: 42px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: normal;
+        }
+
+        .secton__text--text {
+            width: 80%;
+            margin-bottom: 1em;
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.45;
+            letter-spacing: normal;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .section__img--container {
+            display: none;
+        }
+
+        .section__text--container {
+            width: 100%;
+            text-align: left;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    }
+}

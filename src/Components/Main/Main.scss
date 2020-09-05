@@ -1,0 +1,68 @@
+@import '../../Scss/Styles.scss';
+
+.main__container {
+    display: flex;
+    margin: 0 10.5rem;
+    padding: 2.25rem 0;
+    justify-content: space-between;
+
+    .main__text {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        .main__text--title {
+            margin-top: 3rem;
+            margin-bottom: 0.5em;
+            width: 62.5%;
+            font-family: Raleway;
+            font-size: 42px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: normal;
+        }
+
+        .main__text--description {
+            width: 80%; 
+            margin-bottom: 1em;
+            font-family: Raleway;
+            font-size: 22px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.45;
+            letter-spacing: normal;
+        }
+
+        .main__text--button {
+            @include button1;
+        }
+
+    }
+
+    .img__container {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .img__main {
+            max-width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+
+        .main__text {
+            width: 100%;
+        }
+
+        .img__container {
+            display: none;
+        }
+    }
+
+}

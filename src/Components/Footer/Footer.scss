@@ -1,0 +1,79 @@
+@import '../../Scss/Styles.scss';
+
+.footer__container {
+    color: $white;
+    padding: 1.5rem 10.5rem;
+    text-align: center;
+    background-color: $black;
+
+    .footer__logo {
+        text-align: center;
+    }
+
+    .footer__line {
+        content: '';
+        width: 100%;
+        height: 2px;
+        z-index: 5;
+        margin: 2rem 0;
+        background-color: $black2;
+    }
+
+    .footer__items {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .footer__sm--container {
+            display: flex;
+            align-items: center;
+    
+            .footer__logoFacebook,
+            .footer__logoTwitter,
+            .footer__logoSlack {
+              width: 24px;
+              height: 24px;
+              margin: 0.5rem 2rem;
+              cursor: pointer
+            }
+    
+            .footer__logoFacebook:nth-child(1) {
+                margin-left: 0;
+            }
+        }
+    
+        .footer__politics--container {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            
+            .footer__politics--items {
+               @include textFooter;
+            }
+        }
+    }
+}
+
+@include tablet {
+    .footer__container {
+    
+        .footer__sm--container {
+          align-items: center;
+          flex-direction: column;
+
+            .footer__logoTwitter:nth-child(2) {
+                margin-left: 0;
+            }
+
+            .footer__logoSlack:nth-child(3) {
+                margin-left: 0;
+            }
+        }
+
+        .footer__politics--container {
+            flex-direction: column;
+            align-items: flex-end;
+        }
+
+    }
+}
